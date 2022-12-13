@@ -1,0 +1,76 @@
+.footer_container {
+    z-index: -2;
+
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50%; 
+    background: rgb(0,77,141);
+    background: linear-gradient(90deg, rgba(0,77,141,1) 0%, rgba(0,103,172,1) 50%, rgba(0,77,141,1) 100%);
+}
+
+.weg_logo {
+    width: 0;
+    margin-top: 20px;
+    margin-left: -40px;
+}
+
+.text_title {
+    font-weight: 900;
+    color: white;
+    font-family: 'Encode Sans SC', sans-serif;
+}
+
+.line {
+    background-color: #4EB8E2;
+    width: 60px;
+    height: 2px;
+}
+
+.text_links {
+    color: white;
+    font-family: 'Encode Sans SC', sans-serif;
+    line-height: 3.5vh;
+}
+
+.weg_colors {
+    padding-left: 72vw;
+    padding-top: 40vh;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    z-index: -1;
+}
+
+.square_color {
+    width: 40px;
+    height: 25px;
+}
+
+.square_color:first-child {
+    background-color: #1A92C8;
+}
+
+.square_color:nth-child(2) {
+    background-color: #D8EEFA;
+    margin: 0 20px 0 20px;
+}
+
+.square_color:nth-child(3) {
+    background-color: #6FC3DA;
+}
+
+.square_color:nth-child(4) {
+    background-color: #C0E4F7;
+    margin: 0 20px 0 20px;
+}
+
+.square_color:last-child {
+    background-color: #9ACAE5;
+}
+
+a {
+    cursor: pointer;
+}
