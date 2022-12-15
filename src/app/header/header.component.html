@@ -1,34 +1,33 @@
 <div id="white_bar">
     <div id="main_bar">
         <picture>
-            <img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Weg_logo_blue_vector.svg/1200px-Weg_logo_blue_vector.svg.png" alt="">
+            <a><!-- routerLing="app-products" --><img id="logo" src="/assets/images/logo-weg-blue.png" alt=""></a>
         </picture>
         <div id="search">
             <input type="text" class="search_bar" placeholder="O que você está procurando?">
-            <img class="search_icon" src="/assets/img/search.png" alt="">
+            <a><!-- routerLing="app-search" --><img class="search_icon" src="/assets/images/navbar-search.png" alt=""></a>
         </div>
         <div id="options">
-            <img id="option" class="settings" src="/assets/img/settings.png" alt="">
-            <img id="option" class="user" src="/assets/img/user.png" alt="">
-            <img id="option" class="shopping_cart" src="/assets/img/shopping-cart.png" alt="">
+            <a><!-- routerLing="app-settings" --><img id="option" class="settings" src="/assets/images/navbar-settings.png" alt=""></a>
+            <a><!-- routerLing="app-user" --><img id="option" class="user" src="/assets/images/navbar-user.png" alt=""></a>
+            <a><!-- routerLing="app-shopping-cart" --><img id="option" class="shopping_cart" src="/assets/images/navbar-shopping-cart.png" alt=""></a>
         </div>
     </div>
   </div>
   <div id="secondary_bar">
     <div class="second_option_bar_options">
-        <h3 id="option2">weg home</h3>
-        <img class="arrow_down" src="/assets/img/arrow-down.png" alt="">
+        <a routerLink="app-weg-home"><h3 id="option_pages">weg home</h3></a>
+        <img class="arrow_down" src="/assets/images/arrow-down.png" alt="">
     </div>
     <div class="second_option_bar_options">
-        <h3 id="option2" (mouseover)="openBox()">produtos</h3>
-        <img class="arrow_down" src="/assets/img/arrow-down.png" alt="">
+        <a routerLink="app-product"><h3 id="option_pages">produtos</h3></a>
+        <img class="arrow_down" src="/assets/images/arrow-down.png" alt="">
     </div>
     <div class="second_option_bar_options">
-        <h3 id="option2">serviços especiais</h3>
-        <img class="arrow_down" src="/assets/img/arrow-down.png" alt="">
+        <a routerLink="app-special-services"><h3 id="option_pages">serviços especiais</h3></a>
+        <img class="arrow_down" src="/assets/images/arrow-down.png" alt="">
     </div>
-    <h3 id="option2">assistência</h3>
-  </div>
-  <product *ngIf="hovered==true" (mouseover)="hovered = true" (mouseleave)="hovered = false"></product>
-  <special-services></special-services>
-  <weg-home></weg-home>
+    <div class="second_option_bar_options">
+        <a routerLink="app-assistance"><h3 id="option_pages">assistência</h3></a>
+    </div>
+</div>

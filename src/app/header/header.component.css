@@ -95,7 +95,7 @@ picture {
     align-items: center;
 }
 
-#option2 {
+#option_pages {
     color: #FFFFFF;
     font-weight: lighter;
 }
@@ -115,4 +115,9 @@ picture {
 .second_option_bar_options{
     display: flex;
     flex-direction: row;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
 }
