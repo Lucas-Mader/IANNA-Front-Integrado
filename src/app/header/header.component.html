@@ -5,16 +5,16 @@
         </picture>
         <div id="search">
             <input type="text" class="search_bar" placeholder="O que você está procurando?">
-            <a><!-- routerLing="app-search" --><img class="search_icon" src="/assets/images/navbar-search.png" alt=""></a>
+            <button><!-- routerLing="app-search" --><img class="search_icon" src="/assets/images/navbar-search.png" alt=""></button>
         </div>
         <div id="options">
-            <a><!-- routerLing="app-settings" --><img id="option" class="settings" src="/assets/images/navbar-settings.png" alt=""></a>
-            <a><!-- routerLing="app-user" --><img id="option" class="user" src="/assets/images/navbar-user.png" alt=""></a>
-            <a><!-- routerLing="app-shopping-cart" --><img id="option" class="shopping_cart" src="/assets/images/navbar-shopping-cart.png" alt=""></a>
+            <button><!-- routerLing="app-settings" --><img id="option" class="settings" src="/assets/images/navbar-settings.png" alt=""></button>
+            <button routerLink="app-profile"><img id="option" class="user" src="/assets/images/navbar-user.png" alt=""></button>
+            <button><!-- routerLing="app-shopping-cart" --><img id="option" class="shopping_cart" src="/assets/images/navbar-shopping-cart.png" alt=""></button>
         </div>
     </div>
   </div>
-  <div id="secondary_bar">
+  <div id="secondary_bar" *ngIf="subheader">
     <div class="second_option_bar_options">
         <a routerLink="app-weg-home"><h3 id="option_pages">weg home</h3></a>
         <img class="arrow_down" src="/assets/images/arrow-down.png" alt="">

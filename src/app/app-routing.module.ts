@@ -4,7 +4,7 @@ import { WegHomeComponent } from './weg-home/weg-home.component';
 import { ProductComponent } from './product/product.component';
 import { SpecialServicesComponent } from './special-services/special-services.component';
 import { AssistanceComponent } from './assistance/assistance.component';
-import { InputsComponent } from './inputs/inputs.component';
+import { ProfileComponent } from './profile/profile.component';
 
 const routes: Routes = [
   {
@@ -24,8 +24,8 @@ const routes: Routes = [
     component: AssistanceComponent
   },
   {
-    path: 'app-inputs',
-    component: InputsComponent
+    path: 'app-profile',
+    component: ProfileComponent
   }
 ];
 

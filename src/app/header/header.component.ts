@@ -8,8 +8,13 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
 
   constructor() { }
-
+  
   ngOnInit(): void {
-  }
 
+  }
+  
+  subheader = true;
+  change_subheader(change: boolean) {
+    this.subheader = change;
+  }
 }
