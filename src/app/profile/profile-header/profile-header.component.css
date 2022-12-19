@@ -4,7 +4,7 @@
     height: 25%;
     left: 0px;
 
-    background: url('/assets/img/app-perfil-header-background.png');
+    background: url('/assets/images/perfil-header-background.png');
     background-size: cover;
 }
 
@@ -90,27 +90,31 @@
 
 .itens_topics{
     cursor: pointer; 
+    height: 100%;
     width: 20%;
     box-sizing: border-box;
-    border-bottom: 3px solid #484D50;
-    background-color: #ffffffd8;  
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    height: 100%;
-    margin-left: 5vw;
     font-family: Encode Sans;
+    border-bottom: 3px solid #484D50;
+    background-color: #ffffffd8;
     text-align: center;
-    padding-top: 1vh;
+    margin-left: 5vw;
+}
+
+.itens_topics p{
+    margin-top: 1vh;
 }
 
 .itens_topics :hover{
+    height: 100%;
+    width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-color: #c0e4f79d;
-    width: 100%;
-    height: 100%;
-    padding-top: 1vh;
-    margin-top: -1vh;
+    margin-top: 0vh;
     text-align: center;
+    padding-top: 1vh;
+    box-sizing: border-box;
 }
 

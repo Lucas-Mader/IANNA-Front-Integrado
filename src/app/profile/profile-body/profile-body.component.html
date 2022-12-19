@@ -1,77 +1,93 @@
 <div id="flex-container">
     <div class="flex-blocks">
-        <div class="flex-box" id="registration">
-            <div class="box-header">
-                <p>CADASTRO</p>
-                <button class="edit">
-                    <img src="/assets/img/app-perfil-content-pencil.png">
-                </button>
+        <table class="flex-box" id="registration">
+            <tr class="box-header">
+                <th class="subtitle">CADASTRO</th>
+                <td class="info"><button class="edit">
+                    <img src="/assets/images/navbar-pencil.png">
+                </button></td>
+            </tr>
+            <tr class="name">
+                <th class="subtitle">NOME:</th>
+                <td class="info">ANNA CRISTINA KOERICH</td>
+            </tr>
+            <tr class="email">
+                <th class="subtitle">E-MAIL:</th>
+                <td class="info">anna_koerich@gmail.com</td>
+            </tr>
+            <tr class="phone">
+                <th class="subtitle">TELEFONE:</th>
+                <td class="info">(47) 999999-9999</td>
+            </tr>
+            <tr class="password">
+                <th class="subtitle">SENHA:</th>
+                <td class="info">*****</td>
+            </tr>
+        </table>
+        <table class="flex-box">
+            <tr class="box-header">
+                <th class="subtitle">CARTÃO</th>
+                <td class="info"><button class="edit">
+                    <img src="/assets/images/navbar-pencil.png">
+                </button></td>
+            </tr>
+            <tr id="type-card">
+                <th class="info">CRÉDITO-VISA</th>
+            </tr>
+            <div class="box-subtitles">
+                <tr class="name">
+                    <th class="subtitle">NOME:</th>
+                    <td class="info">ANNA CRISTINA KOERICH</td>
+                </tr>
+                <tr id="number">
+                    <th class="subtitle">NÚMERO:</th>
+                    <td class="info">**** ***** **** 4232</td>
+                </tr>
+                <tr id="validity">
+                    <th class="subtitle">VALIDADE:</th>
+                    <td class="info"> 12 / 2023</td>
+                </tr>
+                <tr id="cvv">
+                    <th class="subtitle">CVV:</th>
+                    <td class="info">***</td>
+                </tr>
             </div>
-            <div class="box-content">
-                <div class="box-subtitles">
-                    <p class="subtitle">NOME:</p>
-                    <p class="subtitle">E-MAIL:</p>
-                    <p class="subtitle">TELEFONE:</p>
-                    <p class="subtitle">SENHA:</p>
-                </div>
-                <div id="box-infos">
-                    <p class="info">ANNA CRISTINA KOERICH</p>
-                    <p class="info">anna_koerich@gmail.com</p>
-                    <p class="info">(47) 999999-9999</p>
-                    <p class="info">*****</p>
-                </div>
-            </div>
-        </div>
-        <div class="flex-box">
-            <div class="box-header">
-                <p>CARTÃO</p>
-                <button class="edit">
-                    <img src="/assets/img/app-perfil-content-pencil.png">
-                </button>
-            </div>
-            <p id="type-card">CRÉDITO-VISA</p>
-            <div class="box-content">
-                <div class="box-subtitles">
-                    <p class="subtitle">NOME:</p>
-                    <p class="subtitle">NÚMERO:</p>
-                    <p class="subtitle">VALIDADE:</p>
-                    <p class="subtitle">CVV:</p>
-                </div>
-                <div id="box-infos">
-                    <p class="info">ANNA CRISTINA KOERICH</p>
-                    <p class="info">**** ***** **** 4232</p>
-                    <p class="info"> 12 / 2023</p>
-                    <p class="info">***</p>
-                </div>
-            </div>
-        </div>
+        </table>
     </div>
     <div class="flex-blocks">
-        <div class="flex-box">
-            <div class="box-header">
-                <p>ENDEREÇO</p>
-                <button class="edit">
-                    <img src="/assets/img/app-perfil-content-pencil.png">
-                </button>
+        <table class="flex-box">
+            <tr class="box-header">
+                <th class="subtitle">ENDEREÇO</th>
+                <td class="info"><button class="edit">
+                    <img src="/assets/images/navbar-pencil.png">
+                </button></td>
+            </tr>
+            <div class="box-subtitles">
+                <tr class="cep">
+                    <th class="subtitle">CEP:</th>
+                    <td class="info">90000-000</td>
+                </tr>
+                <tr class="state">
+                    <th class="subtitle">ESTADO:</th>
+                    <td class="info">paraná</td>
+                </tr>
+                <tr class="city">
+                    <th class="subtitle">CIDADE:</th>
+                    <td class="info"> terrasem</td>
+                </tr>
+                <tr class="street">
+                    <th class="subtitle">RUA:</th>
+                    <td class="info">rua da sirenize</td>
+                </tr>
+                <tr class="number">
+                    <th class="subtitle">NÚMERO:</th>
+                    <td class="info">246</td>
+                </tr>
+                <tr class="complement">
+                    <th class="subtitle">COMPLEMENTO:</th>
+                    <td class="info">bloco d</td>
+                </tr>
             </div>
-            <div class="box-content">
-                <div class="box-subtitles">
-                    <p class="subtitle">CEP:</p>
-                    <p class="subtitle">ESTADO:</p>
-                    <p class="subtitle">CIDADE:</p>
-                    <p class="subtitle">RUA:</p>
-                    <p class="subtitle">NÚMERO:</p>
-                    <p class="subtitle">COMPLEMENTO:</p>
-                </div>
-                <div id="box-infos">
-                    <p class="info">90000-000</p>
-                    <p class="info">paraná</p>
-                    <p class="info"> terrasem</p>
-                    <p class="info">rua da sirenize</p>
-                    <p class="info">246</p>
-                    <p class="info">bloco d</p>
-                </div>
-            </div>
-        </div>
+        </table>
     </div>
 </div>
