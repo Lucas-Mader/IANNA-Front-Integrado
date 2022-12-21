@@ -1,10 +1,11 @@
 <div id="app_perfil_header">
     <div class="left_center_container">
-        <div id="blue_rectangle" (mouseenter)="hover_arrow()">
+        <a routerLink="app-product" id="blue_rectangle" (mouseover)="hover=true" (mouseleave)="hover=false">
             <div id="white_arrow">
-                <img src="assets/images/arrow-down.png">
+                <img src="assets/images/arrow-left.png">
+                <button id="inicial_page" *ngIf="hover">Página Inicial</button>
             </div>
-        </div>
+        </a>
         <div id="greet_client">
             <div id="image_user">
                 <img src="assets/images/perfil-user.png" alt="">

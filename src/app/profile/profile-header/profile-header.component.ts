@@ -7,8 +7,5 @@ import { Component } from "@angular/core";
 })
 
 export class ProfileHeaderComponent {
-
-    hover_arrow(): void {
-        document.getElementById('blue_rectangle')
-    }
+    hover = false;
 }
